@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <main>
+    <!-- Cabecera de la página con imagen y título principal -->
+    <header>
       <div class="avatar-container">
         <img
           src="https://avatars.githubusercontent.com/u/81537786?s=400&u=1ddd52bb93ee7ccd45708baec9cb111ce850abe7&v=4"
-          alt="avatar"
+          alt="Foto de perfil de Tomás Banchio"
           class="avatar"
         />
       </div>
@@ -32,26 +33,34 @@
           </pre
         >
       </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+      <div class="divider"></div>
+
+      <!-- Sección de presentación personal -->
+      <section id="presentacion">
+        <h1 class="bio">
+          -== Hola, mi nombre es Tomás Banchio. Nací en 1997, vivo en Esperanza,
+          Santa Fe, y soy desarrollador de software. ==-
+        </h1>
+      </section>
 
       <div class="divider"></div>
 
-      <h1 class="bio">
-        -== Hola, mi nombre es Tomás Banchio. Nací en 1997, vivo en Esperanza,
-        Santa Fe, y soy desarrollador de software. ==-
-      </h1>
-
-      <div class="divider"></div>
-
-      <div class="section">
-        <h3 class="section-title">.techs</h3>
+      <!-- Sección de tecnologías -->
+      <section id="techs" class="section">
+        <h2 class="section-title">.techs</h2>
 
         <span class="stack-line">
           > C# · NestJS · React · SQL · Docker · AWS
         </span>
-      </div>
+      </section>
 
-      <div class="section">
-        <h3 class="section-title">.cursos</h3>
+      <!-- Sección de formación académica -->
+      <section id="cursos" class="section">
+        <h2 class="section-title">.cursos</h2>
         <ul class="items-list">
           <li class="item">
             <a href="#" target="_blank" rel="noreferrer noopener"
@@ -109,10 +118,11 @@
             >
           </li>
         </ul>
-      </div>
+      </section>
 
-      <div class="section">
-        <h3 class="section-title">.proyectos</h3>
+      <!-- Sección de proyectos realizados -->
+      <section id="proyectos" class="section">
+        <h2 class="section-title">.proyectos</h2>
         <ul class="items-list">
           <li class="item">
             <a
@@ -135,16 +145,16 @@
             <a
               href="https://modikra-website.web.app/"
               target="_blank"
-              target="_blank"
               rel="noreferrer noopener"
               >mueblería modikra landing page</a
             >
           </li>
         </ul>
-      </div>
+      </section>
 
-      <div class="section">
-        <h3 class="section-title">.contacto</h3>
+      <!-- Sección de contacto -->
+      <section id="contacto" class="section">
+        <h2 class="section-title">.contacto</h2>
         <ul class="items-list">
           <li class="item">
             <a
@@ -163,7 +173,12 @@
             >
           </li>
         </ul>
-      </div>
+      </section>
     </main>
+
+    <!-- Pie de página  -->
+    <footer>
+      <p>&copy; Tomás Banchio - 2025</p>
+    </footer>
   </body>
 </html>
