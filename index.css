@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+* {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 18px;
+  background-color: #000;
+  color: #0f0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.avatar-container {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 300px;
+  height: 250px;
+  border-radius: 0;
+  border: 2px solid #0f0;
+  object-fit: cover;
+}
+
+.name-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ascii-art {
+  font-weight: bold;
+  color: #0f0;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  white-space: pre;
+  text-align: center;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 2px solid #0f0;
+  margin: 15px 0;
+}
+
+.bio {
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.4;
+  max-width: 800px;
+  margin: 15px 0;
+}
+
+.section {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #0ff;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.items-list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.item::before {
+  content: "- ";
+  color: #0f0;
+  position: absolute;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.stack-line {
+  background-color: #000;
+  color: #0f0;
+  font-family: "Share Tech Mono", monospace;
+  padding: 8px 10px;
+  display: inline-block;
+  border-left: 4px solid #0f0;
+  margin-top: 10px;
+  font-size: 18px;
+}
