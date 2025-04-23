@@ -99,8 +99,7 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
-  color: #fff;
+  text-decoration: underline;
 }
 
 .stack-line {
