@@ -20,21 +20,18 @@ main {
 }
 
 .avatar-container {
-  margin-bottom: 20px;
+  margin: 50px 0 20px;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
   width: 100%;
 }
 
 .avatar {
   width: 300px;
   height: 250px;
-  border-radius: 0;
   border: 2px solid #0f0;
   object-fit: cover;
   display: block;
-  margin: 0 auto;
 }
 
 .name-container {
@@ -45,7 +42,6 @@ main {
 
 .ascii-art {
   font-weight: bold;
-  color: #0f0;
   font-size: 0.85rem;
   line-height: 1.2;
   white-space: pre;
@@ -87,12 +83,10 @@ main {
   margin-bottom: 10px;
   position: relative;
   padding-left: 20px;
-  font-size: 18px;
 }
 
 .item::before {
   content: "- ";
-  color: #0f0;
   position: absolute;
   left: 0;
 }
@@ -107,14 +101,10 @@ a:hover {
 }
 
 .stack-line {
-  background-color: #000;
-  color: #0f0;
-  font-family: "Share Tech Mono", monospace;
   padding: 8px 10px;
   display: inline-block;
   border-left: 4px solid #0f0;
   margin-top: 10px;
-  font-size: 18px;
 }
 
 footer {
